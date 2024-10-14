@@ -59,7 +59,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
                 setLoading(false);
             }
         } catch (error) {
-            console.log(error);
             addError(getErrorMessage(error));
         }
     };
