@@ -17,7 +17,7 @@ export function Header() {
                     </label>
                 </div>
                 <div className='navbar-center'>
-                    <a className='btn btn-ghost normal-case lg:text-xl' href='/'>Codi.Editor ⚡️</a>
+                    <a className='btn btn-ghost normal-case lg:text-xl' href='/'>Erp ⚡️</a>
                 </div>
                 <div className='navbar-end'>
                 </div>

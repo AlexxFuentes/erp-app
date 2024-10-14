@@ -8,6 +8,7 @@ import { Landing } from '@/pages/landing'
 import { Login } from '@/pages/login'
 import { Register } from '@/pages/register'
 import { Home } from '@/pages/home'
+import { Facturas } from '@/pages/facturas'
 
 function App() {
 
@@ -21,7 +22,10 @@ function App() {
           <Route path='/register' element={<Register />} />
 
           <Route element={<ProtectedRoute />}>
+            
             <Route path='/home' element={<Home />} />
+            <Route path='/facturas' element={<Facturas />} />
+
           </Route>
 
         </Routes>

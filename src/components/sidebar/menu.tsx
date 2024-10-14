@@ -35,7 +35,7 @@ export function SidebarMenu({ sideBarActiveItemID }: Props) {
                 </Link>
             </li>
             <li>
-                <Link className='py-3 text-base' id='projects' to='/projects'>
+                <Link className='py-3 text-base' id='projects' to='/pedidos'>
                     <UseAnimations
                         animation={folder}
                         size={24}
@@ -45,7 +45,7 @@ export function SidebarMenu({ sideBarActiveItemID }: Props) {
                 </Link>
             </li>
             <li>
-                <Link className='py-3 text-base' id='projects' to='/projects'>
+                <Link className='py-3 text-base' id='projects' to='/facturas'>
                     <UseAnimations
                         animation={folder}
                         size={24}

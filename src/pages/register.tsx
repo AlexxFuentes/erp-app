@@ -28,7 +28,7 @@ export function Register() {
             setIsPassword(true)
             setTimeout(() =>
                 setIsPassword(false)
-                , 2000)
+            , 2000)
             return
         }
 
